@@ -27,3 +27,11 @@ while ( lagi === true){
 }
 
 alert('terimakasih..');
+
+//latihan while
+var ulang = true;
+while (ulang) {
+   console.log('hello word');
+   ulang = confirm('lagi');
+}
+
