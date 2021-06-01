@@ -28,6 +28,18 @@ while ( lagi === true){
 
 alert('terimakasih..');
 
+//menentukan angka ganjil
+var angka = prompt('Masukkan angka : ');
+if(angka % 2 == 0) {
+	alert(angka + ' adalah bilangan GENAP');
+} 
+else if(angka % 2 == 1) {
+	alert(angka + ' adalah bilangan GANJIL');
+} 
+else {
+	alert( 'yang anda masukkan bukan angka!' );
+}
+
 //latihan while
 var ulang = true;
 while (ulang) {
