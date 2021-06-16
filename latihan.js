@@ -13,6 +13,7 @@ if ( tes === true) {
 }
     else{
     alert('nama membatalkan!')
+
 }
 
 // latihan confirm while
