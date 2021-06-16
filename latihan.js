@@ -9,10 +9,11 @@ alert(tes +nama);
    
 
 if ( tes === true) {
-    alert('nama dikonfirmasi!')
+    alert('nama menyetujui!')
 }
     else{
-    alert('nama tidak dikonfirmasi!')
+    alert('nama membatalkan!')
+
 }
 
 // latihan confirm while
@@ -28,10 +29,22 @@ while ( lagi === true){
 
 alert('terimakasih..');
 
+//menentukan angka ganjil
+var angka = prompt('Masukkan angka : ');
+if(angka % 2 == 0) {
+	alert(angka + ' adalah bilangan GENAP');
+} 
+else if(angka % 2 == 1) {
+	alert(angka + ' adalah bilangan GANJIL');
+} 
+else {
+	alert( 'yang anda masukkan bukan angka!' );
+}
+
 //latihan while
 var ulang = true;
 while (ulang) {
    console.log('hello word');
-   ulang = confirm('ulangi');
+   ulang = confirm('lagi');
 }
 
