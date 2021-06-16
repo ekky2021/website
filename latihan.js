@@ -9,10 +9,10 @@ alert(tes +nama);
    
 
 if ( tes === true) {
-    alert('anda menyetujui!')
+    alert('nama menyetujui!')
 }
     else{
-    alert('anda membatalkan!')
+    alert('nama membatalkan!')
 }
 
 // latihan confirm while
