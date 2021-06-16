@@ -44,6 +44,6 @@ else {
 var ulang = true;
 while (ulang) {
    console.log('hello word');
-   ulang = confirm('lagi');
+   ulang = confirm('ulangi');
 }
 
